@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="G1C-OP-tja" customClass="MolletBodyWeightAlert" customModule="Mollet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="430"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elG-9P-WBc">
+                    <rect key="frame" x="32" y="26" width="90" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qb-P7-TcJ">
+                    <rect key="frame" x="332" y="26" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="SCF-FA-ELm"/>
+                        <constraint firstAttribute="width" constant="22" id="qi9-gh-iCy"/>
+                    </constraints>
+                    <state key="normal" image="personalcenter_cancel"/>
+                    <connections>
+                        <action selector="cancelAction:" destination="G1C-OP-tja" eventType="touchUpInside" id="bbK-HQ-BEi"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XXG-2E-MjW">
+                    <rect key="frame" x="32" y="45.5" width="311" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="uWz-cl-a0S"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SEr-EU-cb6">
+                    <rect key="frame" x="33" y="97.5" width="309" height="1"/>
+                    <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="4Ki-xJ-r9g"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVi-RT-Sjq">
+                    <rect key="frame" x="32" y="176.5" width="311" height="48"/>
+                    <state key="normal" image="personalcenter_ok"/>
+                    <connections>
+                        <action selector="okAction:" destination="G1C-OP-tja" eventType="touchUpInside" id="fGM-VC-LhO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gax-Gm-zej" firstAttribute="trailing" secondItem="aVi-RT-Sjq" secondAttribute="trailing" constant="32" id="F1G-4R-EvJ"/>
+                <constraint firstItem="aVi-RT-Sjq" firstAttribute="leading" secondItem="gax-Gm-zej" secondAttribute="leading" constant="32" id="FMe-6k-P45"/>
+                <constraint firstItem="elG-9P-WBc" firstAttribute="leading" secondItem="gax-Gm-zej" secondAttribute="leading" constant="32" id="Gsj-ab-Ijw"/>
+                <constraint firstItem="SEr-EU-cb6" firstAttribute="top" secondItem="XXG-2E-MjW" secondAttribute="bottom" constant="10" id="KMZ-v7-aDT"/>
+                <constraint firstItem="5qb-P7-TcJ" firstAttribute="top" secondItem="gax-Gm-zej" secondAttribute="top" constant="26" id="M6G-5U-t8N"/>
+                <constraint firstItem="XXG-2E-MjW" firstAttribute="leading" secondItem="gax-Gm-zej" secondAttribute="leading" constant="32" id="M8r-Vb-bbc"/>
+                <constraint firstItem="elG-9P-WBc" firstAttribute="top" secondItem="gax-Gm-zej" secondAttribute="top" constant="26" id="a0m-6o-yUn"/>
+                <constraint firstItem="aVi-RT-Sjq" firstAttribute="top" secondItem="SEr-EU-cb6" secondAttribute="bottom" constant="78" id="g8P-RE-bdd"/>
+                <constraint firstItem="gax-Gm-zej" firstAttribute="trailing" secondItem="XXG-2E-MjW" secondAttribute="trailing" constant="32" id="jsE-RJ-cqf"/>
+                <constraint firstItem="XXG-2E-MjW" firstAttribute="top" secondItem="elG-9P-WBc" secondAttribute="bottom" id="ndD-og-w7n"/>
+                <constraint firstItem="SEr-EU-cb6" firstAttribute="leading" secondItem="gax-Gm-zej" secondAttribute="leading" constant="33" id="qE5-u6-xzs"/>
+                <constraint firstItem="gax-Gm-zej" firstAttribute="trailing" secondItem="5qb-P7-TcJ" secondAttribute="trailing" constant="21" id="xs6-B7-IKk"/>
+                <constraint firstItem="gax-Gm-zej" firstAttribute="trailing" secondItem="SEr-EU-cb6" secondAttribute="trailing" constant="33" id="zDQ-As-wpC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="gax-Gm-zej"/>
+            <connections>
+                <outlet property="bodyWeightTF" destination="XXG-2E-MjW" id="Sid-eF-lBi"/>
+            </connections>
+            <point key="canvasLocation" x="-27.5" y="-110"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="personalcenter_cancel" width="14" height="14"/>
+        <image name="personalcenter_ok" width="311" height="48"/>
+    </resources>
+</document>

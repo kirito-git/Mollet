@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="BQr-CC-dXi" customClass="MolletPhoneNumberAlert" customModule="Mollet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="430"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82c-8v-ZXP">
+                    <rect key="frame" x="32" y="26" width="93" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgu-cB-dmU">
+                    <rect key="frame" x="332" y="26" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="Okq-eS-uQa"/>
+                        <constraint firstAttribute="height" constant="22" id="d6v-MW-u4c"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="personalcenter_cancel"/>
+                    <connections>
+                        <action selector="cancelChooseAction:" destination="BQr-CC-dXi" eventType="touchUpInside" id="0qh-S7-HJx"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-9A-XGw">
+                    <rect key="frame" x="32" y="45.5" width="311" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="fVi-DT-czT"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yG8-wk-vW2">
+                    <rect key="frame" x="32" y="97.5" width="311" height="1"/>
+                    <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="IbX-hv-yN9"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJ0-n2-gXB">
+                    <rect key="frame" x="32" y="176.5" width="311" height="48"/>
+                    <state key="normal" image="personalcenter_ok"/>
+                    <connections>
+                        <action selector="okAction:" destination="BQr-CC-dXi" eventType="touchUpInside" id="h2V-pi-Vil"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FZH-dh-PJD" firstAttribute="trailing" secondItem="fgu-cB-dmU" secondAttribute="trailing" constant="21" id="03f-mc-PXH"/>
+                <constraint firstItem="82c-8v-ZXP" firstAttribute="top" secondItem="FZH-dh-PJD" secondAttribute="top" constant="26" id="0Wo-82-Ax3"/>
+                <constraint firstItem="fgu-cB-dmU" firstAttribute="top" secondItem="FZH-dh-PJD" secondAttribute="top" constant="26" id="1Kv-eQ-TQ0"/>
+                <constraint firstItem="FZH-dh-PJD" firstAttribute="trailing" secondItem="yG8-wk-vW2" secondAttribute="trailing" constant="32" id="5pA-i4-rTc"/>
+                <constraint firstItem="LJ0-n2-gXB" firstAttribute="top" secondItem="yG8-wk-vW2" secondAttribute="bottom" constant="78" id="8Oa-LR-McY"/>
+                <constraint firstItem="FZH-dh-PJD" firstAttribute="trailing" secondItem="MlS-9A-XGw" secondAttribute="trailing" constant="32" id="9yd-rv-JIE"/>
+                <constraint firstItem="MlS-9A-XGw" firstAttribute="top" secondItem="82c-8v-ZXP" secondAttribute="bottom" id="Lig-Ar-qkM"/>
+                <constraint firstItem="LJ0-n2-gXB" firstAttribute="leading" secondItem="FZH-dh-PJD" secondAttribute="leading" constant="32" id="MLD-SX-zB5"/>
+                <constraint firstItem="MlS-9A-XGw" firstAttribute="leading" secondItem="FZH-dh-PJD" secondAttribute="leading" constant="32" id="PwA-UX-iAs"/>
+                <constraint firstItem="yG8-wk-vW2" firstAttribute="leading" secondItem="FZH-dh-PJD" secondAttribute="leading" constant="32" id="Zqw-PW-8HM"/>
+                <constraint firstItem="FZH-dh-PJD" firstAttribute="trailing" secondItem="LJ0-n2-gXB" secondAttribute="trailing" constant="32" id="d3F-I6-VFS"/>
+                <constraint firstItem="yG8-wk-vW2" firstAttribute="top" secondItem="MlS-9A-XGw" secondAttribute="bottom" constant="10" id="eVM-Ho-er4"/>
+                <constraint firstItem="82c-8v-ZXP" firstAttribute="leading" secondItem="FZH-dh-PJD" secondAttribute="leading" constant="32" id="oTY-8b-eBj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="FZH-dh-PJD"/>
+            <connections>
+                <outlet property="phoneNumberTextField" destination="MlS-9A-XGw" id="lvL-VX-DBK"/>
+            </connections>
+            <point key="canvasLocation" x="-1010" y="-1581"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="personalcenter_cancel" width="14" height="14"/>
+        <image name="personalcenter_ok" width="311" height="48"/>
+    </resources>
+</document>

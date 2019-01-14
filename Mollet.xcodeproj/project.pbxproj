@@ -1,0 +1,1452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70CA44001315A133BE1DBF8 /* Pods_Mollet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317F2FC745E79EE5E018A7A8 /* Pods_Mollet.framework */; };
+		BB9FA840214F49A5008E3EDD /* MolletAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FA83F214F49A5008E3EDD /* MolletAlert.swift */; };
+		BB9FA842214F9274008E3EDD /* MolletPhoneNumberAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FA841214F9274008E3EDD /* MolletPhoneNumberAlert.swift */; };
+		BB9FA844214F9294008E3EDD /* MolletPhoneNumberAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB9FA843214F9294008E3EDD /* MolletPhoneNumberAlert.xib */; };
+		BBA2B3F3215345E60098D9D1 /* MolletSizeAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA2B3F2215345E60098D9D1 /* MolletSizeAlert.xib */; };
+		BBA2B3F5215346140098D9D1 /* MolletChoosePhotoAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA2B3F4215346140098D9D1 /* MolletChoosePhotoAlert.xib */; };
+		BBA2B3F7215392D80098D9D1 /* MolletHeightAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B3F6215392D80098D9D1 /* MolletHeightAlert.swift */; };
+		BBA2B3F9215392EF0098D9D1 /* MolletHeightAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA2B3F8215392EF0098D9D1 /* MolletHeightAlert.xib */; };
+		BBA2B3FF21539A680098D9D1 /* YBOSSInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B3FB21539A680098D9D1 /* YBOSSInfo.swift */; };
+		BBA2B40021539A680098D9D1 /* YBOSSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B3FC21539A680098D9D1 /* YBOSSOperation.swift */; };
+		BBA2B40121539A680098D9D1 /* YBOSSUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B3FD21539A680098D9D1 /* YBOSSUploader.swift */; };
+		BBA2B40221539A680098D9D1 /* YBUploadImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B3FE21539A680098D9D1 /* YBUploadImageManager.swift */; };
+		BBA2B40421539E0F0098D9D1 /* MolletPersonalCenterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B40321539E0F0098D9D1 /* MolletPersonalCenterViewModel.swift */; };
+		BBA2B4072153A6010098D9D1 /* MolletForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B4052153A6010098D9D1 /* MolletForgetPasswordViewController.swift */; };
+		BBA2B4082153A6010098D9D1 /* MolletForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA2B4062153A6010098D9D1 /* MolletForgetPasswordViewController.xib */; };
+		BBA2B40A2153B2AA0098D9D1 /* MolletContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B4092153B2AA0098D9D1 /* MolletContractViewController.swift */; };
+		BBA2B40C2153B4710098D9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B40B2153B4710098D9D1 /* AppDelegate.swift */; };
+		BBA2B40E2153B4B60098D9D1 /* SwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B40D2153B4B60098D9D1 /* SwiftHeader.swift */; };
+		BBA2B4102153BFC10098D9D1 /* MolletContractViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B40F2153BFC10098D9D1 /* MolletContractViewModel.swift */; };
+		BBA2B4132153C0190098D9D1 /* MolletLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B4112153C0190098D9D1 /* MolletLoginViewController.swift */; };
+		BBA2B4142153C0190098D9D1 /* MolletLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA2B4122153C0190098D9D1 /* MolletLoginViewController.xib */; };
+		BBA2B4162153C0640098D9D1 /* MolletContractModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B4152153C0640098D9D1 /* MolletContractModel.swift */; };
+		BBA2B4182153C0AB0098D9D1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2B4172153C0AA0098D9D1 /* Operators.swift */; };
+		BBADDE7721491F9F00334A28 /* MolletBodyWeightAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBADDE7621491F9F00334A28 /* MolletBodyWeightAlert.swift */; };
+		BBADDE7921491FB600334A28 /* MolletSizeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBADDE7821491FB600334A28 /* MolletSizeAlert.swift */; };
+		BBADDE7B21491FD800334A28 /* MolletChoosePhotoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBADDE7A21491FD800334A28 /* MolletChoosePhotoAlert.swift */; };
+		BBADDE83214A0EEA00334A28 /* MolletBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBADDE80214A0EEA00334A28 /* MolletBaseViewController.swift */; };
+		BBADDE84214A0EEA00334A28 /* MolletNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBADDE82214A0EEA00334A28 /* MolletNavigationController.swift */; };
+		BBF4455F2151EB5B002F6A39 /* MolletBodyWeightAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF4455E2151EB5B002F6A39 /* MolletBodyWeightAlert.xib */; };
+		BBF72A1A214B8CE60064CA56 /* MolletPersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF72A18214B8CE60064CA56 /* MolletPersonalCenterViewController.swift */; };
+		BBF72A1B214B8CE60064CA56 /* MolletPersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF72A19214B8CE60064CA56 /* MolletPersonalCenterViewController.xib */; };
+		DD001E562148EEC4004AA9C7 /* MolletRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD001E542148EEC4004AA9C7 /* MolletRegistViewController.swift */; };
+		DD001E572148EEC4004AA9C7 /* MolletRegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD001E552148EEC4004AA9C7 /* MolletRegistViewController.xib */; };
+		DD001E6321490267004AA9C7 /* RxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD001E6221490267004AA9C7 /* RxAlamofire.swift */; };
+		DD001E67214904AF004AA9C7 /* MolletLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD001E66214904AF004AA9C7 /* MolletLoginViewModel.swift */; };
+		DD001E69214904C5004AA9C7 /* MolletLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD001E68214904C5004AA9C7 /* MolletLoginModel.swift */; };
+		DD001E8321491D10004AA9C7 /* MolletContractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD001E8221491D10004AA9C7 /* MolletContractView.swift */; };
+		DD02A5602181590A00592343 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02A55E2181590A00592343 /* PrivacyPolicyViewController.swift */; };
+		DD02A5612181590A00592343 /* PrivacyPolicyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD02A55F2181590A00592343 /* PrivacyPolicyViewController.xib */; };
+		DD17748F2148AC27007AB379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD17748E2148AC27007AB379 /* Assets.xcassets */; };
+		DD17749D2148AC27007AB379 /* MolletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17749C2148AC27007AB379 /* MolletTests.swift */; };
+		DD1774A82148AC27007AB379 /* MolletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1774A72148AC27007AB379 /* MolletUITests.swift */; };
+		DD1AC78B21886685004EB0C6 /* Japan.json in Resources */ = {isa = PBXBuildFile; fileRef = DD1AC78821886684004EB0C6 /* Japan.json */; };
+		DD1AC78C21886685004EB0C6 /* USA.json in Resources */ = {isa = PBXBuildFile; fileRef = DD1AC78921886684004EB0C6 /* USA.json */; };
+		DD1AC78D21886685004EB0C6 /* India.json in Resources */ = {isa = PBXBuildFile; fileRef = DD1AC78A21886685004EB0C6 /* India.json */; };
+		DD1AC795218B02A9004EB0C6 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1AC794218B02A9004EB0C6 /* ReachabilityManager.swift */; };
+		DD35102E2151FC98005F429F /* MolletJobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35102D2151FC98005F429F /* MolletJobListView.swift */; };
+		DD3510312151FD4B005F429F /* MolletJobListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35102F2151FD4B005F429F /* MolletJobListCell.swift */; };
+		DD3510322151FD4B005F429F /* MolletJobListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3510302151FD4B005F429F /* MolletJobListCell.xib */; };
+		DD351034215200F5005F429F /* MolletJobListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD351033215200F5005F429F /* MolletJobListViewModel.swift */; };
+		DD3510362152013A005F429F /* MolletJobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3510352152013A005F429F /* MolletJobModel.swift */; };
+		DD35103821523B11005F429F /* MolletJobAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35103721523B11005F429F /* MolletJobAddViewModel.swift */; };
+		DD35103B2152432F005F429F /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35103A2152432F005F429F /* DateView.swift */; };
+		DD35104121524F6A005F429F /* MolletReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35104021524F6A005F429F /* MolletReportViewController.swift */; };
+		DD35104521524FCA005F429F /* MolletReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35104421524FCA005F429F /* MolletReportView.swift */; };
+		DD35104721525277005F429F /* MolletReportHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD35104621525277005F429F /* MolletReportHeader.xib */; };
+		DD35104921525282005F429F /* MolletReportHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35104821525282005F429F /* MolletReportHeader.swift */; };
+		DD35104B2152597E005F429F /* MolletReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35104A2152597E005F429F /* MolletReportViewModel.swift */; };
+		DD35104E21525B3E005F429F /* MolletReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35104C21525B3E005F429F /* MolletReportCell.swift */; };
+		DD35104F21525B3E005F429F /* MolletReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD35104D21525B3E005F429F /* MolletReportCell.xib */; };
+		DD4CDA3E216AFE6900EF22BE /* MBProgressHUDSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4CDA3D216AFE6900EF22BE /* MBProgressHUDSwift.swift */; };
+		DD4CDA40216B380A00EF22BE /* MJRefresh+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4CDA3F216B380A00EF22BE /* MJRefresh+Rx.swift */; };
+		DD4CDA45216CA8E800EF22BE /* MolletNameAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4CDA44216CA8E800EF22BE /* MolletNameAlert.swift */; };
+		DD4CDA47216CA8FA00EF22BE /* MolletNameAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4CDA46216CA8FA00EF22BE /* MolletNameAlert.xib */; };
+		DD4CDA49216DA2A200EF22BE /* MolletFeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4CDA48216DA2A200EF22BE /* MolletFeeModel.swift */; };
+		DD5A8C36215F944600E33A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A8C35215F944600E33A7C /* LaunchScreen.storyboard */; };
+		DD6AB7212150F4C200E90688 /* MolletCalcultorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AB71F2150F4C200E90688 /* MolletCalcultorViewController.swift */; };
+		DD6AB7222150F4C200E90688 /* MolletCalcultorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6AB7202150F4C200E90688 /* MolletCalcultorViewController.xib */; };
+		DD6AB7242150FC4700E90688 /* RulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AB7232150FC4700E90688 /* RulerView.swift */; };
+		DD6AB7612151F91600E90688 /* MolletJobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AB7602151F91600E90688 /* MolletJobListViewController.swift */; };
+		DD6AB7642151F95B00E90688 /* MolletJobAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6AB7622151F95B00E90688 /* MolletJobAddViewController.swift */; };
+		DD6AB7652151F95B00E90688 /* MolletJobAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6AB7632151F95B00E90688 /* MolletJobAddViewController.xib */; };
+		DD73FBCB21534BF100F63F2E /* MProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBCA21534BF100F63F2E /* MProgressView.swift */; };
+		DD73FBCD2153730100F63F2E /* MProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBCC2153730100F63F2E /* MProgressBar.swift */; };
+		DD73FBD02153824800F63F2E /* MolletRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBCE2153824800F63F2E /* MolletRankViewController.swift */; };
+		DD73FBD12153824800F63F2E /* MolletRankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD73FBCF2153824800F63F2E /* MolletRankViewController.xib */; };
+		DD73FBD321538A4900F63F2E /* MolletRankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBD221538A4900F63F2E /* MolletRankViewModel.swift */; };
+		DD73FBD621539F2200F63F2E /* MolletRegistNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBD421539F2200F63F2E /* MolletRegistNameViewController.swift */; };
+		DD73FBD721539F2200F63F2E /* MolletRegistNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD73FBD521539F2200F63F2E /* MolletRegistNameViewController.xib */; };
+		DD73FBDA21539F5300F63F2E /* MolletRegistGenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBD821539F5300F63F2E /* MolletRegistGenderViewController.swift */; };
+		DD73FBDB21539F5300F63F2E /* MolletRegistGenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD73FBD921539F5300F63F2E /* MolletRegistGenderViewController.xib */; };
+		DD73FBDE21539F6C00F63F2E /* MolletRegistCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBDC21539F6C00F63F2E /* MolletRegistCountryViewController.swift */; };
+		DD73FBDF21539F6C00F63F2E /* MolletRegistCountryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD73FBDD21539F6C00F63F2E /* MolletRegistCountryViewController.xib */; };
+		DD73FBE12154CF8500F63F2E /* MolletRegistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBE02154CF8500F63F2E /* MolletRegistViewModel.swift */; };
+		DD73FBE62159DDE800F63F2E /* SqliteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBE52159DDE800F63F2E /* SqliteManager.swift */; };
+		DD73FBEC215A0B4300F63F2E /* global_country.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DD73FBEB215A0B4300F63F2E /* global_country.sqlite3 */; };
+		DD73FBF2215A2CE900F63F2E /* CountryTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBF1215A2CE900F63F2E /* CountryTools.swift */; };
+		DD73FBF7215B237800F63F2E /* CountryAndCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBF6215B237800F63F2E /* CountryAndCityView.swift */; };
+		DD73FBF9215B23B200F63F2E /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD73FBF8215B23B200F63F2E /* city.plist */; };
+		DD73FBFB215B7F8800F63F2E /* MolletCalcultorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBFA215B7F8800F63F2E /* MolletCalcultorViewModel.swift */; };
+		DD73FBFE215C748F00F63F2E /* MolletRegistBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FBFC215C748F00F63F2E /* MolletRegistBodyViewController.swift */; };
+		DD73FBFF215C748F00F63F2E /* MolletRegistBodyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD73FBFD215C748F00F63F2E /* MolletRegistBodyViewController.xib */; };
+		DD73FC06215CAFE200F63F2E /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FC05215CAFE200F63F2E /* SwiftNotice.swift */; };
+		DD73FC08215CC45B00F63F2E /* YBCountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FC07215CC45A00F63F2E /* YBCountDownButton.swift */; };
+		DD73FC0A215CD74800F63F2E /* MolletForgetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FC09215CD74800F63F2E /* MolletForgetPasswordViewModel.swift */; };
+		DD73FC0C215DC60400F63F2E /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FC0B215DC60400F63F2E /* Observable+ObjectMapper.swift */; };
+		DD73FC11215DFE3900F63F2E /* UserGlobalDataTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FC10215DFE3900F63F2E /* UserGlobalDataTool.swift */; };
+		DD73FC14215E13A800F63F2E /* MolletTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73FC13215E13A800F63F2E /* MolletTools.swift */; };
+		DD7FC42B214B8FCB00DC52DD /* MolletContractDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC429214B8FCB00DC52DD /* MolletContractDetailViewController.swift */; };
+		DD7FC42C214B8FCB00DC52DD /* MolletContractDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC42A214B8FCB00DC52DD /* MolletContractDetailViewController.xib */; };
+		DD7FC42F214B991600DC52DD /* MolletContractCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC42D214B991600DC52DD /* MolletContractCell.swift */; };
+		DD7FC430214B991600DC52DD /* MolletContractCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC42E214B991600DC52DD /* MolletContractCell.xib */; };
+		DD7FC434214CF6CE00DC52DD /* MolletContractDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC433214CF6CE00DC52DD /* MolletContractDetailView.swift */; };
+		DD7FC436214F49D900DC52DD /* MolletContractDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC435214F49D900DC52DD /* MolletContractDetailViewModel.swift */; };
+		DD7FC439214F82C500DC52DD /* MolletBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC437214F82C500DC52DD /* MolletBalanceViewController.swift */; };
+		DD7FC43A214F82C500DC52DD /* MolletBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC438214F82C500DC52DD /* MolletBalanceViewController.xib */; };
+		DD7FC43D214F9D2A00DC52DD /* MolletBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC43B214F9D2A00DC52DD /* MolletBalanceCell.swift */; };
+		DD7FC43E214F9D2A00DC52DD /* MolletBalanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7FC43C214F9D2A00DC52DD /* MolletBalanceCell.xib */; };
+		DD7FC440214F9FFF00DC52DD /* MolletBalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC43F214F9FFF00DC52DD /* MolletBalanceViewModel.swift */; };
+		DD7FC442214FA0FB00DC52DD /* MolletBalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC441214FA0FB00DC52DD /* MolletBalanceModel.swift */; };
+		DD7FC4472150A50300DC52DD /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FC4462150A50300DC52DD /* DropDownView.swift */; };
+		DDC99A4F2175C4B3002BA34B /* pyCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC99A4E2175C4B2002BA34B /* pyCity.plist */; };
+		DDE69B0521707F780014DF04 /* PluginLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE69B0421707F780014DF04 /* PluginLoading.swift */; };
+		DDE69B07217199420014DF04 /* MolletJobWeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE69B06217199420014DF04 /* MolletJobWeightModel.swift */; };
+		DDE69B092171F72D0014DF04 /* MolletRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE69B082171F72D0014DF04 /* MolletRateModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD1774992148AC27007AB379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD17747C2148AC26007AB379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1774832148AC26007AB379;
+			remoteInfo = Mollet;
+		};
+		DD1774A42148AC27007AB379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD17747C2148AC26007AB379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1774832148AC26007AB379;
+			remoteInfo = Mollet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE1AE2A5814A27839E565FC /* Pods-Mollet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mollet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mollet/Pods-Mollet.release.xcconfig"; sourceTree = "<group>"; };
+		2427473FE3350582F84633D9 /* Pods-Mollet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mollet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mollet/Pods-Mollet.debug.xcconfig"; sourceTree = "<group>"; };
+		317F2FC745E79EE5E018A7A8 /* Pods_Mollet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mollet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9FA83F214F49A5008E3EDD /* MolletAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletAlert.swift; sourceTree = "<group>"; };
+		BB9FA841214F9274008E3EDD /* MolletPhoneNumberAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletPhoneNumberAlert.swift; sourceTree = "<group>"; };
+		BB9FA843214F9294008E3EDD /* MolletPhoneNumberAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletPhoneNumberAlert.xib; sourceTree = "<group>"; };
+		BBA2B3F2215345E60098D9D1 /* MolletSizeAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletSizeAlert.xib; sourceTree = "<group>"; };
+		BBA2B3F4215346140098D9D1 /* MolletChoosePhotoAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletChoosePhotoAlert.xib; sourceTree = "<group>"; };
+		BBA2B3F6215392D80098D9D1 /* MolletHeightAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletHeightAlert.swift; sourceTree = "<group>"; };
+		BBA2B3F8215392EF0098D9D1 /* MolletHeightAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletHeightAlert.xib; sourceTree = "<group>"; };
+		BBA2B3FB21539A680098D9D1 /* YBOSSInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBOSSInfo.swift; sourceTree = "<group>"; };
+		BBA2B3FC21539A680098D9D1 /* YBOSSOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBOSSOperation.swift; sourceTree = "<group>"; };
+		BBA2B3FD21539A680098D9D1 /* YBOSSUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBOSSUploader.swift; sourceTree = "<group>"; };
+		BBA2B3FE21539A680098D9D1 /* YBUploadImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBUploadImageManager.swift; sourceTree = "<group>"; };
+		BBA2B40321539E0F0098D9D1 /* MolletPersonalCenterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletPersonalCenterViewModel.swift; sourceTree = "<group>"; };
+		BBA2B4052153A6010098D9D1 /* MolletForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		BBA2B4062153A6010098D9D1 /* MolletForgetPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletForgetPasswordViewController.xib; sourceTree = "<group>"; };
+		BBA2B4092153B2AA0098D9D1 /* MolletContractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletContractViewController.swift; sourceTree = "<group>"; };
+		BBA2B40B2153B4710098D9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBA2B40D2153B4B60098D9D1 /* SwiftHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHeader.swift; sourceTree = "<group>"; };
+		BBA2B40F2153BFC10098D9D1 /* MolletContractViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolletContractViewModel.swift; sourceTree = "<group>"; };
+		BBA2B4112153C0190098D9D1 /* MolletLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolletLoginViewController.swift; sourceTree = "<group>"; };
+		BBA2B4122153C0190098D9D1 /* MolletLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MolletLoginViewController.xib; sourceTree = "<group>"; };
+		BBA2B4152153C0640098D9D1 /* MolletContractModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolletContractModel.swift; sourceTree = "<group>"; };
+		BBA2B4172153C0AA0098D9D1 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		BBADDE7621491F9F00334A28 /* MolletBodyWeightAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletBodyWeightAlert.swift; sourceTree = "<group>"; };
+		BBADDE7821491FB600334A28 /* MolletSizeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletSizeAlert.swift; sourceTree = "<group>"; };
+		BBADDE7A21491FD800334A28 /* MolletChoosePhotoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletChoosePhotoAlert.swift; sourceTree = "<group>"; };
+		BBADDE80214A0EEA00334A28 /* MolletBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolletBaseViewController.swift; sourceTree = "<group>"; };
+		BBADDE82214A0EEA00334A28 /* MolletNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolletNavigationController.swift; sourceTree = "<group>"; };
+		BBF4455E2151EB5B002F6A39 /* MolletBodyWeightAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletBodyWeightAlert.xib; sourceTree = "<group>"; };
+		BBF72A18214B8CE60064CA56 /* MolletPersonalCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletPersonalCenterViewController.swift; sourceTree = "<group>"; };
+		BBF72A19214B8CE60064CA56 /* MolletPersonalCenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletPersonalCenterViewController.xib; sourceTree = "<group>"; };
+		DD001E542148EEC4004AA9C7 /* MolletRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRegistViewController.swift; sourceTree = "<group>"; };
+		DD001E552148EEC4004AA9C7 /* MolletRegistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletRegistViewController.xib; sourceTree = "<group>"; };
+		DD001E6221490267004AA9C7 /* RxAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofire.swift; sourceTree = "<group>"; };
+		DD001E66214904AF004AA9C7 /* MolletLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletLoginViewModel.swift; sourceTree = "<group>"; };
+		DD001E68214904C5004AA9C7 /* MolletLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletLoginModel.swift; sourceTree = "<group>"; };
+		DD001E8221491D10004AA9C7 /* MolletContractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletContractView.swift; sourceTree = "<group>"; };
+		DD02A55E2181590A00592343 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		DD02A55F2181590A00592343 /* PrivacyPolicyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrivacyPolicyViewController.xib; sourceTree = "<group>"; };
+		DD1774842148AC26007AB379 /* Mollet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mollet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD17748C2148AC27007AB379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD17748E2148AC27007AB379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD1774932148AC27007AB379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1774982148AC27007AB379 /* MolletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD17749C2148AC27007AB379 /* MolletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletTests.swift; sourceTree = "<group>"; };
+		DD17749E2148AC27007AB379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1774A32148AC27007AB379 /* MolletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1774A72148AC27007AB379 /* MolletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletUITests.swift; sourceTree = "<group>"; };
+		DD1774A92148AC27007AB379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1AC78821886684004EB0C6 /* Japan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Japan.json; sourceTree = "<group>"; };
+		DD1AC78921886684004EB0C6 /* USA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = USA.json; sourceTree = "<group>"; };
+		DD1AC78A21886685004EB0C6 /* India.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = India.json; sourceTree = "<group>"; };
+		DD1AC794218B02A9004EB0C6 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		DD35102D2151FC98005F429F /* MolletJobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobListView.swift; sourceTree = "<group>"; };
+		DD35102F2151FD4B005F429F /* MolletJobListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobListCell.swift; sourceTree = "<group>"; };
+		DD3510302151FD4B005F429F /* MolletJobListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletJobListCell.xib; sourceTree = "<group>"; };
+		DD351033215200F5005F429F /* MolletJobListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobListViewModel.swift; sourceTree = "<group>"; };
+		DD3510352152013A005F429F /* MolletJobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobModel.swift; sourceTree = "<group>"; };
+		DD35103721523B11005F429F /* MolletJobAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobAddViewModel.swift; sourceTree = "<group>"; };
+		DD35103A2152432F005F429F /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		DD35104021524F6A005F429F /* MolletReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletReportViewController.swift; sourceTree = "<group>"; };
+		DD35104421524FCA005F429F /* MolletReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletReportView.swift; sourceTree = "<group>"; };
+		DD35104621525277005F429F /* MolletReportHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletReportHeader.xib; sourceTree = "<group>"; };
+		DD35104821525282005F429F /* MolletReportHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletReportHeader.swift; sourceTree = "<group>"; };
+		DD35104A2152597E005F429F /* MolletReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletReportViewModel.swift; sourceTree = "<group>"; };
+		DD35104C21525B3E005F429F /* MolletReportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletReportCell.swift; sourceTree = "<group>"; };
+		DD35104D21525B3E005F429F /* MolletReportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletReportCell.xib; sourceTree = "<group>"; };
+		DD4CDA3B216AFBE900EF22BE /* ObjCBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridgingHeader.h; sourceTree = "<group>"; };
+		DD4CDA3D216AFE6900EF22BE /* MBProgressHUDSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDSwift.swift; sourceTree = "<group>"; };
+		DD4CDA3F216B380A00EF22BE /* MJRefresh+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MJRefresh+Rx.swift"; sourceTree = "<group>"; };
+		DD4CDA43216C52F500EF22BE /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4CDA44216CA8E800EF22BE /* MolletNameAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletNameAlert.swift; sourceTree = "<group>"; };
+		DD4CDA46216CA8FA00EF22BE /* MolletNameAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletNameAlert.xib; sourceTree = "<group>"; };
+		DD4CDA48216DA2A200EF22BE /* MolletFeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletFeeModel.swift; sourceTree = "<group>"; };
+		DD5A8C35215F944600E33A7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD6AB71F2150F4C200E90688 /* MolletCalcultorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletCalcultorViewController.swift; sourceTree = "<group>"; };
+		DD6AB7202150F4C200E90688 /* MolletCalcultorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletCalcultorViewController.xib; sourceTree = "<group>"; };
+		DD6AB7232150FC4700E90688 /* RulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerView.swift; sourceTree = "<group>"; };
+		DD6AB7602151F91600E90688 /* MolletJobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobListViewController.swift; sourceTree = "<group>"; };
+		DD6AB7622151F95B00E90688 /* MolletJobAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobAddViewController.swift; sourceTree = "<group>"; };
+		DD6AB7632151F95B00E90688 /* MolletJobAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletJobAddViewController.xib; sourceTree = "<group>"; };
+		DD73FBCA21534BF100F63F2E /* MProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MProgressView.swift; sourceTree = "<group>"; };
+		DD73FBCC2153730100F63F2E /* MProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MProgressBar.swift; sourceTree = "<group>"; };
+		DD73FBCE2153824800F63F2E /* MolletRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRankViewController.swift; sourceTree = "<group>"; };
+		DD73FBCF2153824800F63F2E /* MolletRankViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletRankViewController.xib; sourceTree = "<group>"; };
+		DD73FBD221538A4900F63F2E /* MolletRankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRankViewModel.swift; sourceTree = "<group>"; };
+		DD73FBD421539F2200F63F2E /* MolletRegistNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRegistNameViewController.swift; sourceTree = "<group>"; };
+		DD73FBD521539F2200F63F2E /* MolletRegistNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletRegistNameViewController.xib; sourceTree = "<group>"; };
+		DD73FBD821539F5300F63F2E /* MolletRegistGenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRegistGenderViewController.swift; sourceTree = "<group>"; };
+		DD73FBD921539F5300F63F2E /* MolletRegistGenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletRegistGenderViewController.xib; sourceTree = "<group>"; };
+		DD73FBDC21539F6C00F63F2E /* MolletRegistCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRegistCountryViewController.swift; sourceTree = "<group>"; };
+		DD73FBDD21539F6C00F63F2E /* MolletRegistCountryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletRegistCountryViewController.xib; sourceTree = "<group>"; };
+		DD73FBE02154CF8500F63F2E /* MolletRegistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRegistViewModel.swift; sourceTree = "<group>"; };
+		DD73FBE52159DDE800F63F2E /* SqliteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteManager.swift; sourceTree = "<group>"; };
+		DD73FBEB215A0B4300F63F2E /* global_country.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = global_country.sqlite3; sourceTree = "<group>"; };
+		DD73FBF1215A2CE900F63F2E /* CountryTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTools.swift; sourceTree = "<group>"; };
+		DD73FBF6215B237800F63F2E /* CountryAndCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAndCityView.swift; sourceTree = "<group>"; };
+		DD73FBF8215B23B200F63F2E /* city.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = city.plist; sourceTree = "<group>"; };
+		DD73FBFA215B7F8800F63F2E /* MolletCalcultorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletCalcultorViewModel.swift; sourceTree = "<group>"; };
+		DD73FBFC215C748F00F63F2E /* MolletRegistBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRegistBodyViewController.swift; sourceTree = "<group>"; };
+		DD73FBFD215C748F00F63F2E /* MolletRegistBodyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletRegistBodyViewController.xib; sourceTree = "<group>"; };
+		DD73FC05215CAFE200F63F2E /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		DD73FC07215CC45A00F63F2E /* YBCountDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBCountDownButton.swift; sourceTree = "<group>"; };
+		DD73FC09215CD74800F63F2E /* MolletForgetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletForgetPasswordViewModel.swift; sourceTree = "<group>"; };
+		DD73FC0B215DC60400F63F2E /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
+		DD73FC10215DFE3900F63F2E /* UserGlobalDataTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGlobalDataTool.swift; sourceTree = "<group>"; };
+		DD73FC13215E13A800F63F2E /* MolletTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletTools.swift; sourceTree = "<group>"; };
+		DD7FC429214B8FCB00DC52DD /* MolletContractDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletContractDetailViewController.swift; sourceTree = "<group>"; };
+		DD7FC42A214B8FCB00DC52DD /* MolletContractDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletContractDetailViewController.xib; sourceTree = "<group>"; };
+		DD7FC42D214B991600DC52DD /* MolletContractCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletContractCell.swift; sourceTree = "<group>"; };
+		DD7FC42E214B991600DC52DD /* MolletContractCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletContractCell.xib; sourceTree = "<group>"; };
+		DD7FC433214CF6CE00DC52DD /* MolletContractDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletContractDetailView.swift; sourceTree = "<group>"; };
+		DD7FC435214F49D900DC52DD /* MolletContractDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletContractDetailViewModel.swift; sourceTree = "<group>"; };
+		DD7FC437214F82C500DC52DD /* MolletBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletBalanceViewController.swift; sourceTree = "<group>"; };
+		DD7FC438214F82C500DC52DD /* MolletBalanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletBalanceViewController.xib; sourceTree = "<group>"; };
+		DD7FC43B214F9D2A00DC52DD /* MolletBalanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletBalanceCell.swift; sourceTree = "<group>"; };
+		DD7FC43C214F9D2A00DC52DD /* MolletBalanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MolletBalanceCell.xib; sourceTree = "<group>"; };
+		DD7FC43F214F9FFF00DC52DD /* MolletBalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletBalanceViewModel.swift; sourceTree = "<group>"; };
+		DD7FC441214FA0FB00DC52DD /* MolletBalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletBalanceModel.swift; sourceTree = "<group>"; };
+		DD7FC4462150A50300DC52DD /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		DDC99A4E2175C4B2002BA34B /* pyCity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pyCity.plist; sourceTree = "<group>"; };
+		DDE69B0421707F780014DF04 /* PluginLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginLoading.swift; sourceTree = "<group>"; };
+		DDE69B06217199420014DF04 /* MolletJobWeightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletJobWeightModel.swift; sourceTree = "<group>"; };
+		DDE69B082171F72D0014DF04 /* MolletRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolletRateModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD1774812148AC26007AB379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70CA44001315A133BE1DBF8 /* Pods_Mollet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1774952148AC27007AB379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1774A02148AC27007AB379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9707F9B78B4D17EAAF8E768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2427473FE3350582F84633D9 /* Pods-Mollet.debug.xcconfig */,
+				1AE1AE2A5814A27839E565FC /* Pods-Mollet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B97DDEC817984D295970E560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4CDA43216C52F500EF22BE /* DZNEmptyDataSet.framework */,
+				317F2FC745E79EE5E018A7A8 /* Pods_Mollet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBA2B3FA21539A680098D9D1 /* YBUploadImage */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B3FB21539A680098D9D1 /* YBOSSInfo.swift */,
+				BBA2B3FC21539A680098D9D1 /* YBOSSOperation.swift */,
+				BBA2B3FD21539A680098D9D1 /* YBOSSUploader.swift */,
+				BBA2B3FE21539A680098D9D1 /* YBUploadImageManager.swift */,
+			);
+			path = YBUploadImage;
+			sourceTree = "<group>";
+		};
+		BBADDE69214916C400334A28 /* MolletPersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BBADDE6B214916C400334A28 /* logic */,
+				BBADDE6A214916C400334A28 /* Controllers */,
+				BBADDE6C214916C400334A28 /* Models */,
+				BBADDE6D214916C400334A28 /* Views */,
+			);
+			path = MolletPersonalCenter;
+			sourceTree = "<group>";
+		};
+		BBADDE6A214916C400334A28 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBF72A18214B8CE60064CA56 /* MolletPersonalCenterViewController.swift */,
+				BBF72A19214B8CE60064CA56 /* MolletPersonalCenterViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BBADDE6B214916C400334A28 /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B40321539E0F0098D9D1 /* MolletPersonalCenterViewModel.swift */,
+			);
+			path = logic;
+			sourceTree = "<group>";
+		};
+		BBADDE6C214916C400334A28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BBADDE6D214916C400334A28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FA83F214F49A5008E3EDD /* MolletAlert.swift */,
+				BB9FA841214F9274008E3EDD /* MolletPhoneNumberAlert.swift */,
+				BB9FA843214F9294008E3EDD /* MolletPhoneNumberAlert.xib */,
+				BBADDE7621491F9F00334A28 /* MolletBodyWeightAlert.swift */,
+				BBF4455E2151EB5B002F6A39 /* MolletBodyWeightAlert.xib */,
+				BBADDE7821491FB600334A28 /* MolletSizeAlert.swift */,
+				BBA2B3F2215345E60098D9D1 /* MolletSizeAlert.xib */,
+				BBADDE7A21491FD800334A28 /* MolletChoosePhotoAlert.swift */,
+				BBA2B3F4215346140098D9D1 /* MolletChoosePhotoAlert.xib */,
+				BBA2B3F6215392D80098D9D1 /* MolletHeightAlert.swift */,
+				BBA2B3F8215392EF0098D9D1 /* MolletHeightAlert.xib */,
+				DD4CDA44216CA8E800EF22BE /* MolletNameAlert.swift */,
+				DD4CDA46216CA8FA00EF22BE /* MolletNameAlert.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBADDE7C214A0EEA00334A28 /* AppFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FBE32159DDD000F63F2E /* Manager */,
+				BBADDE7E214A0EEA00334A28 /* MolletUIKit */,
+			);
+			path = AppFoundation;
+			sourceTree = "<group>";
+		};
+		BBADDE7E214A0EEA00334A28 /* MolletUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC4442150A4E500DC52DD /* CustomUI */,
+				BBADDE7F214A0EEA00334A28 /* BaseViewController */,
+				BBADDE81214A0EEA00334A28 /* Navigation */,
+			);
+			path = MolletUIKit;
+			sourceTree = "<group>";
+		};
+		BBADDE7F214A0EEA00334A28 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BBADDE80214A0EEA00334A28 /* MolletBaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		BBADDE81214A0EEA00334A28 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BBADDE82214A0EEA00334A28 /* MolletNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		DD001E492148EC76004AA9C7 /* MolletLoginAndRegist */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E6C214905F0004AA9C7 /* Logic */,
+				DD001E6D214905FA004AA9C7 /* Controllers */,
+				DD001E6F21490610004AA9C7 /* Models */,
+				DD001E6E2149060A004AA9C7 /* Views */,
+			);
+			path = MolletLoginAndRegist;
+			sourceTree = "<group>";
+		};
+		DD001E4A2148EC87004AA9C7 /* MolletContract */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E7221490A99004AA9C7 /* Logic */,
+				DD001E4F2148EDAF004AA9C7 /* Controllers */,
+				DD001E7521490ABF004AA9C7 /* Models */,
+				DD001E7621490AC4004AA9C7 /* Views */,
+			);
+			path = MolletContract;
+			sourceTree = "<group>";
+		};
+		DD001E4B2148ED58004AA9C7 /* MolletCommons */ = {
+			isa = PBXGroup;
+			children = (
+				BBADDE7C214A0EEA00334A28 /* AppFoundation */,
+				DD001E7C21490E13004AA9C7 /* Tools */,
+				DD001E5D2148F540004AA9C7 /* Vendor */,
+			);
+			path = MolletCommons;
+			sourceTree = "<group>";
+		};
+		DD001E4F2148EDAF004AA9C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B4092153B2AA0098D9D1 /* MolletContractViewController.swift */,
+				DD7FC429214B8FCB00DC52DD /* MolletContractDetailViewController.swift */,
+				DD7FC42A214B8FCB00DC52DD /* MolletContractDetailViewController.xib */,
+				DD7FC437214F82C500DC52DD /* MolletBalanceViewController.swift */,
+				DD7FC438214F82C500DC52DD /* MolletBalanceViewController.xib */,
+				DD6AB71F2150F4C200E90688 /* MolletCalcultorViewController.swift */,
+				DD6AB7202150F4C200E90688 /* MolletCalcultorViewController.xib */,
+				DD6AB7602151F91600E90688 /* MolletJobListViewController.swift */,
+				DD6AB7622151F95B00E90688 /* MolletJobAddViewController.swift */,
+				DD6AB7632151F95B00E90688 /* MolletJobAddViewController.xib */,
+				DD35104021524F6A005F429F /* MolletReportViewController.swift */,
+				DD73FBCE2153824800F63F2E /* MolletRankViewController.swift */,
+				DD73FBCF2153824800F63F2E /* MolletRankViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD001E5D2148F540004AA9C7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DD4CDA3C216AFE2F00EF22BE /* MBProgressHUDSwift */,
+				DD73FC04215CAFD000F63F2E /* SwiftNotice */,
+				DD73FC03215C85FC00F63F2E /* Rx */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		DD001E612149025F004AA9C7 /* RxAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E6221490267004AA9C7 /* RxAlamofire.swift */,
+				DDE69B0421707F780014DF04 /* PluginLoading.swift */,
+			);
+			path = RxAlamofire;
+			sourceTree = "<group>";
+		};
+		DD001E6C214905F0004AA9C7 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E66214904AF004AA9C7 /* MolletLoginViewModel.swift */,
+				DD73FBE02154CF8500F63F2E /* MolletRegistViewModel.swift */,
+				DD73FC09215CD74800F63F2E /* MolletForgetPasswordViewModel.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		DD001E6D214905FA004AA9C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B4112153C0190098D9D1 /* MolletLoginViewController.swift */,
+				BBA2B4122153C0190098D9D1 /* MolletLoginViewController.xib */,
+				DD001E542148EEC4004AA9C7 /* MolletRegistViewController.swift */,
+				DD001E552148EEC4004AA9C7 /* MolletRegistViewController.xib */,
+				DD73FBD421539F2200F63F2E /* MolletRegistNameViewController.swift */,
+				DD73FBD521539F2200F63F2E /* MolletRegistNameViewController.xib */,
+				DD73FBD821539F5300F63F2E /* MolletRegistGenderViewController.swift */,
+				DD73FBD921539F5300F63F2E /* MolletRegistGenderViewController.xib */,
+				DD73FBDC21539F6C00F63F2E /* MolletRegistCountryViewController.swift */,
+				DD73FBDD21539F6C00F63F2E /* MolletRegistCountryViewController.xib */,
+				DD73FBFC215C748F00F63F2E /* MolletRegistBodyViewController.swift */,
+				DD73FBFD215C748F00F63F2E /* MolletRegistBodyViewController.xib */,
+				BBA2B4052153A6010098D9D1 /* MolletForgetPasswordViewController.swift */,
+				BBA2B4062153A6010098D9D1 /* MolletForgetPasswordViewController.xib */,
+				DD02A55E2181590A00592343 /* PrivacyPolicyViewController.swift */,
+				DD02A55F2181590A00592343 /* PrivacyPolicyViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD001E6E2149060A004AA9C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD001E6F21490610004AA9C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E68214904C5004AA9C7 /* MolletLoginModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD001E7221490A99004AA9C7 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B40F2153BFC10098D9D1 /* MolletContractViewModel.swift */,
+				DD7FC435214F49D900DC52DD /* MolletContractDetailViewModel.swift */,
+				DD7FC43F214F9FFF00DC52DD /* MolletBalanceViewModel.swift */,
+				DD73FBFA215B7F8800F63F2E /* MolletCalcultorViewModel.swift */,
+				DD351033215200F5005F429F /* MolletJobListViewModel.swift */,
+				DD35103721523B11005F429F /* MolletJobAddViewModel.swift */,
+				DD35104A2152597E005F429F /* MolletReportViewModel.swift */,
+				DD73FBD221538A4900F63F2E /* MolletRankViewModel.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		DD001E7521490ABF004AA9C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B4152153C0640098D9D1 /* MolletContractModel.swift */,
+				DD7FC441214FA0FB00DC52DD /* MolletBalanceModel.swift */,
+				DD3510352152013A005F429F /* MolletJobModel.swift */,
+				DDE69B06217199420014DF04 /* MolletJobWeightModel.swift */,
+				DD4CDA48216DA2A200EF22BE /* MolletFeeModel.swift */,
+				DDE69B082171F72D0014DF04 /* MolletRateModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD001E7621490AC4004AA9C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E8221491D10004AA9C7 /* MolletContractView.swift */,
+				DD7FC42D214B991600DC52DD /* MolletContractCell.swift */,
+				DD7FC42E214B991600DC52DD /* MolletContractCell.xib */,
+				DD7FC433214CF6CE00DC52DD /* MolletContractDetailView.swift */,
+				DD7FC43B214F9D2A00DC52DD /* MolletBalanceCell.swift */,
+				DD7FC43C214F9D2A00DC52DD /* MolletBalanceCell.xib */,
+				DD35102D2151FC98005F429F /* MolletJobListView.swift */,
+				DD35102F2151FD4B005F429F /* MolletJobListCell.swift */,
+				DD3510302151FD4B005F429F /* MolletJobListCell.xib */,
+				DD35104421524FCA005F429F /* MolletReportView.swift */,
+				DD35104821525282005F429F /* MolletReportHeader.swift */,
+				DD35104621525277005F429F /* MolletReportHeader.xib */,
+				DD35104C21525B3E005F429F /* MolletReportCell.swift */,
+				DD35104D21525B3E005F429F /* MolletReportCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD001E7921490BA1004AA9C7 /* RxOperators */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B4172153C0AA0098D9D1 /* Operators.swift */,
+			);
+			path = RxOperators;
+			sourceTree = "<group>";
+		};
+		DD001E7C21490E13004AA9C7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FC13215E13A800F63F2E /* MolletTools.swift */,
+				DD73FC0D215DFDBE00F63F2E /* UserDefaultTool */,
+				BBA2B3FA21539A680098D9D1 /* YBUploadImage */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DD17747B2148AC26007AB379 = {
+			isa = PBXGroup;
+			children = (
+				DD1774862148AC26007AB379 /* Mollet */,
+				DD17749B2148AC27007AB379 /* MolletTests */,
+				DD1774A62148AC27007AB379 /* MolletUITests */,
+				DD1774852148AC26007AB379 /* Products */,
+				A9707F9B78B4D17EAAF8E768 /* Pods */,
+				B97DDEC817984D295970E560 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1774852148AC26007AB379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1774842148AC26007AB379 /* Mollet.app */,
+				DD1774982148AC27007AB379 /* MolletTests.xctest */,
+				DD1774A32148AC27007AB379 /* MolletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1774862148AC26007AB379 /* Mollet */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E4B2148ED58004AA9C7 /* MolletCommons */,
+				DD1774B52148AD64007AB379 /* MolletClasses */,
+				DD1774B62148AD8D007AB379 /* Other */,
+				DD73FBE72159E47E00F63F2E /* Resourse */,
+				DD17748B2148AC27007AB379 /* Main.storyboard */,
+				DD5A8C35215F944600E33A7C /* LaunchScreen.storyboard */,
+				DD1774932148AC27007AB379 /* Info.plist */,
+			);
+			path = Mollet;
+			sourceTree = "<group>";
+		};
+		DD17749B2148AC27007AB379 /* MolletTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD17749C2148AC27007AB379 /* MolletTests.swift */,
+				DD17749E2148AC27007AB379 /* Info.plist */,
+			);
+			path = MolletTests;
+			sourceTree = "<group>";
+		};
+		DD1774A62148AC27007AB379 /* MolletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1774A72148AC27007AB379 /* MolletUITests.swift */,
+				DD1774A92148AC27007AB379 /* Info.plist */,
+			);
+			path = MolletUITests;
+			sourceTree = "<group>";
+		};
+		DD1774B52148AD64007AB379 /* MolletClasses */ = {
+			isa = PBXGroup;
+			children = (
+				DD001E4A2148EC87004AA9C7 /* MolletContract */,
+				DD001E492148EC76004AA9C7 /* MolletLoginAndRegist */,
+				BBADDE69214916C400334A28 /* MolletPersonalCenter */,
+			);
+			path = MolletClasses;
+			sourceTree = "<group>";
+		};
+		DD1774B62148AD8D007AB379 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BBA2B40B2153B4710098D9D1 /* AppDelegate.swift */,
+				BBA2B40D2153B4B60098D9D1 /* SwiftHeader.swift */,
+				DD4CDA3B216AFBE900EF22BE /* ObjCBridgingHeader.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DD1AC793218B0274004EB0C6 /* ReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD1AC794218B02A9004EB0C6 /* ReachabilityManager.swift */,
+			);
+			path = ReachabilityManager;
+			sourceTree = "<group>";
+		};
+		DD3510392152430E005F429F /* DateView */ = {
+			isa = PBXGroup;
+			children = (
+				DD35103A2152432F005F429F /* DateView.swift */,
+			);
+			path = DateView;
+			sourceTree = "<group>";
+		};
+		DD4CDA3C216AFE2F00EF22BE /* MBProgressHUDSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DD4CDA3D216AFE6900EF22BE /* MBProgressHUDSwift.swift */,
+			);
+			path = MBProgressHUDSwift;
+			sourceTree = "<group>";
+		};
+		DD4CDA41216B381100EF22BE /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DD4CDA3F216B380A00EF22BE /* MJRefresh+Rx.swift */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		DD6AB7252150FC4D00E90688 /* RulerView */ = {
+			isa = PBXGroup;
+			children = (
+				DD6AB7232150FC4700E90688 /* RulerView.swift */,
+			);
+			path = RulerView;
+			sourceTree = "<group>";
+		};
+		DD73FBC921534BE000F63F2E /* MProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FBCC2153730100F63F2E /* MProgressBar.swift */,
+				DD73FBCA21534BF100F63F2E /* MProgressView.swift */,
+			);
+			path = MProgressView;
+			sourceTree = "<group>";
+		};
+		DD73FBE32159DDD000F63F2E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DD1AC793218B0274004EB0C6 /* ReachabilityManager */,
+				DD73FBE42159DDD600F63F2E /* SqliteManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DD73FBE42159DDD600F63F2E /* SqliteManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FBE52159DDE800F63F2E /* SqliteManager.swift */,
+			);
+			path = SqliteManager;
+			sourceTree = "<group>";
+		};
+		DD73FBE72159E47E00F63F2E /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				DDC99A4E2175C4B2002BA34B /* pyCity.plist */,
+				DD73FBF8215B23B200F63F2E /* city.plist */,
+				DD1AC78A21886685004EB0C6 /* India.json */,
+				DD1AC78821886684004EB0C6 /* Japan.json */,
+				DD1AC78921886684004EB0C6 /* USA.json */,
+				DD73FBEB215A0B4300F63F2E /* global_country.sqlite3 */,
+				DD17748E2148AC27007AB379 /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		DD73FBED215A26CF00F63F2E /* CountryView */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FBF1215A2CE900F63F2E /* CountryTools.swift */,
+				DD73FBF6215B237800F63F2E /* CountryAndCityView.swift */,
+			);
+			path = CountryView;
+			sourceTree = "<group>";
+		};
+		DD73FC00215C85BC00F63F2E /* RxObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FC0B215DC60400F63F2E /* Observable+ObjectMapper.swift */,
+			);
+			path = RxObjectMapper;
+			sourceTree = "<group>";
+		};
+		DD73FC03215C85FC00F63F2E /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				DD4CDA41216B381100EF22BE /* MJRefresh */,
+				DD73FC00215C85BC00F63F2E /* RxObjectMapper */,
+				DD001E7921490BA1004AA9C7 /* RxOperators */,
+				DD001E612149025F004AA9C7 /* RxAlamofire */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		DD73FC04215CAFD000F63F2E /* SwiftNotice */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FC05215CAFE200F63F2E /* SwiftNotice.swift */,
+			);
+			path = SwiftNotice;
+			sourceTree = "<group>";
+		};
+		DD73FC0D215DFDBE00F63F2E /* UserDefaultTool */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FC10215DFE3900F63F2E /* UserGlobalDataTool.swift */,
+			);
+			path = UserDefaultTool;
+			sourceTree = "<group>";
+		};
+		DD7FC4442150A4E500DC52DD /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				DD73FC07215CC45A00F63F2E /* YBCountDownButton.swift */,
+				DD73FBED215A26CF00F63F2E /* CountryView */,
+				DD73FBC921534BE000F63F2E /* MProgressView */,
+				DD3510392152430E005F429F /* DateView */,
+				DD6AB7252150FC4D00E90688 /* RulerView */,
+				DD7FC4452150A4ED00DC52DD /* DropDownView */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		DD7FC4452150A4ED00DC52DD /* DropDownView */ = {
+			isa = PBXGroup;
+			children = (
+				DD7FC4462150A50300DC52DD /* DropDownView.swift */,
+			);
+			path = DropDownView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD1774832148AC26007AB379 /* Mollet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1774AC2148AC27007AB379 /* Build configuration list for PBXNativeTarget "Mollet" */;
+			buildPhases = (
+				D9AB458378A8C451CB302C9A /* [CP] Check Pods Manifest.lock */,
+				DD1774802148AC26007AB379 /* Sources */,
+				DD1774812148AC26007AB379 /* Frameworks */,
+				DD1774822148AC26007AB379 /* Resources */,
+				02285719B11156DA8467F139 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mollet;
+			productName = Mollet;
+			productReference = DD1774842148AC26007AB379 /* Mollet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD1774972148AC27007AB379 /* MolletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1774AF2148AC27007AB379 /* Build configuration list for PBXNativeTarget "MolletTests" */;
+			buildPhases = (
+				DD1774942148AC27007AB379 /* Sources */,
+				DD1774952148AC27007AB379 /* Frameworks */,
+				DD1774962148AC27007AB379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD17749A2148AC27007AB379 /* PBXTargetDependency */,
+			);
+			name = MolletTests;
+			productName = MolletTests;
+			productReference = DD1774982148AC27007AB379 /* MolletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD1774A22148AC27007AB379 /* MolletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1774B22148AC27007AB379 /* Build configuration list for PBXNativeTarget "MolletUITests" */;
+			buildPhases = (
+				DD17749F2148AC27007AB379 /* Sources */,
+				DD1774A02148AC27007AB379 /* Frameworks */,
+				DD1774A12148AC27007AB379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1774A52148AC27007AB379 /* PBXTargetDependency */,
+			);
+			name = MolletUITests;
+			productName = MolletUITests;
+			productReference = DD1774A32148AC27007AB379 /* MolletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD17747C2148AC26007AB379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Mr.zhang;
+				TargetAttributes = {
+					DD1774832148AC26007AB379 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DD1774972148AC27007AB379 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD1774832148AC26007AB379;
+					};
+					DD1774A22148AC27007AB379 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD1774832148AC26007AB379;
+					};
+				};
+			};
+			buildConfigurationList = DD17747F2148AC26007AB379 /* Build configuration list for PBXProject "Mollet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD17747B2148AC26007AB379;
+			productRefGroup = DD1774852148AC26007AB379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD1774832148AC26007AB379 /* Mollet */,
+				DD1774972148AC27007AB379 /* MolletTests */,
+				DD1774A22148AC27007AB379 /* MolletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD1774822148AC26007AB379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9FA844214F9294008E3EDD /* MolletPhoneNumberAlert.xib in Resources */,
+				BBF72A1B214B8CE60064CA56 /* MolletPersonalCenterViewController.xib in Resources */,
+				BBA2B3F9215392EF0098D9D1 /* MolletHeightAlert.xib in Resources */,
+				DD4CDA47216CA8FA00EF22BE /* MolletNameAlert.xib in Resources */,
+				BBA2B3F3215345E60098D9D1 /* MolletSizeAlert.xib in Resources */,
+				BBA2B3F5215346140098D9D1 /* MolletChoosePhotoAlert.xib in Resources */,
+				DD1AC78C21886685004EB0C6 /* USA.json in Resources */,
+				DD001E572148EEC4004AA9C7 /* MolletRegistViewController.xib in Resources */,
+				BBF4455F2151EB5B002F6A39 /* MolletBodyWeightAlert.xib in Resources */,
+				BBA2B4082153A6010098D9D1 /* MolletForgetPasswordViewController.xib in Resources */,
+				DD3510322151FD4B005F429F /* MolletJobListCell.xib in Resources */,
+				DD73FBEC215A0B4300F63F2E /* global_country.sqlite3 in Resources */,
+				DD73FBFF215C748F00F63F2E /* MolletRegistBodyViewController.xib in Resources */,
+				DD73FBDB21539F5300F63F2E /* MolletRegistGenderViewController.xib in Resources */,
+				DD7FC43A214F82C500DC52DD /* MolletBalanceViewController.xib in Resources */,
+				DD02A5612181590A00592343 /* PrivacyPolicyViewController.xib in Resources */,
+				DD35104721525277005F429F /* MolletReportHeader.xib in Resources */,
+				DD6AB7222150F4C200E90688 /* MolletCalcultorViewController.xib in Resources */,
+				DD73FBD721539F2200F63F2E /* MolletRegistNameViewController.xib in Resources */,
+				DD001E572148EEC4004AA9C7 /* MolletRegistViewController.xib in Resources */,
+				DD73FBD12153824800F63F2E /* MolletRankViewController.xib in Resources */,
+				DD73FBF9215B23B200F63F2E /* city.plist in Resources */,
+				DD73FBDF21539F6C00F63F2E /* MolletRegistCountryViewController.xib in Resources */,
+				DD17748F2148AC27007AB379 /* Assets.xcassets in Resources */,
+				DD7FC430214B991600DC52DD /* MolletContractCell.xib in Resources */,
+				DD1AC78D21886685004EB0C6 /* India.json in Resources */,
+				BBA2B4142153C0190098D9D1 /* MolletLoginViewController.xib in Resources */,
+				DD7FC42C214B8FCB00DC52DD /* MolletContractDetailViewController.xib in Resources */,
+				DD35104F21525B3E005F429F /* MolletReportCell.xib in Resources */,
+				DD5A8C36215F944600E33A7C /* LaunchScreen.storyboard in Resources */,
+				DD1AC78B21886685004EB0C6 /* Japan.json in Resources */,
+				DD6AB7652151F95B00E90688 /* MolletJobAddViewController.xib in Resources */,
+				DD7FC43E214F9D2A00DC52DD /* MolletBalanceCell.xib in Resources */,
+				DDC99A4F2175C4B3002BA34B /* pyCity.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1774962148AC27007AB379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1774A12148AC27007AB379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02285719B11156DA8467F139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mollet/Pods-Mollet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AliyunOSSiOS/AliyunOSSiOS.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AliyunOSSiOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mollet/Pods-Mollet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9AB458378A8C451CB302C9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mollet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD1774802148AC26007AB379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35104B2152597E005F429F /* MolletReportViewModel.swift in Sources */,
+				DD6AB7642151F95B00E90688 /* MolletJobAddViewController.swift in Sources */,
+				DD6AB7612151F91600E90688 /* MolletJobListViewController.swift in Sources */,
+				DD73FBDA21539F5300F63F2E /* MolletRegistGenderViewController.swift in Sources */,
+				BBA2B4182153C0AB0098D9D1 /* Operators.swift in Sources */,
+				DD6AB7242150FC4700E90688 /* RulerView.swift in Sources */,
+				BBA2B3F7215392D80098D9D1 /* MolletHeightAlert.swift in Sources */,
+				BBA2B40221539A680098D9D1 /* YBUploadImageManager.swift in Sources */,
+				DD001E6321490267004AA9C7 /* RxAlamofire.swift in Sources */,
+				DD73FC11215DFE3900F63F2E /* UserGlobalDataTool.swift in Sources */,
+				BBA2B40021539A680098D9D1 /* YBOSSOperation.swift in Sources */,
+				DD73FC0C215DC60400F63F2E /* Observable+ObjectMapper.swift in Sources */,
+				BBA2B40421539E0F0098D9D1 /* MolletPersonalCenterViewModel.swift in Sources */,
+				BBA2B4072153A6010098D9D1 /* MolletForgetPasswordViewController.swift in Sources */,
+				DD7FC42B214B8FCB00DC52DD /* MolletContractDetailViewController.swift in Sources */,
+				DD351034215200F5005F429F /* MolletJobListViewModel.swift in Sources */,
+				DD4CDA40216B380A00EF22BE /* MJRefresh+Rx.swift in Sources */,
+				DD7FC436214F49D900DC52DD /* MolletContractDetailViewModel.swift in Sources */,
+				DD73FBFE215C748F00F63F2E /* MolletRegistBodyViewController.swift in Sources */,
+				DD7FC434214CF6CE00DC52DD /* MolletContractDetailView.swift in Sources */,
+				DD35104521524FCA005F429F /* MolletReportView.swift in Sources */,
+				DD7FC439214F82C500DC52DD /* MolletBalanceViewController.swift in Sources */,
+				DD35104121524F6A005F429F /* MolletReportViewController.swift in Sources */,
+				DD73FBE62159DDE800F63F2E /* SqliteManager.swift in Sources */,
+				DD001E69214904C5004AA9C7 /* MolletLoginModel.swift in Sources */,
+				BBA2B40121539A680098D9D1 /* YBOSSUploader.swift in Sources */,
+				DD001E562148EEC4004AA9C7 /* MolletRegistViewController.swift in Sources */,
+				DD73FC08215CC45B00F63F2E /* YBCountDownButton.swift in Sources */,
+				DD1AC795218B02A9004EB0C6 /* ReachabilityManager.swift in Sources */,
+				BBADDE7B21491FD800334A28 /* MolletChoosePhotoAlert.swift in Sources */,
+				BBADDE7921491FB600334A28 /* MolletSizeAlert.swift in Sources */,
+				DDE69B0521707F780014DF04 /* PluginLoading.swift in Sources */,
+				DD73FBE12154CF8500F63F2E /* MolletRegistViewModel.swift in Sources */,
+				DD4CDA49216DA2A200EF22BE /* MolletFeeModel.swift in Sources */,
+				DD73FBFB215B7F8800F63F2E /* MolletCalcultorViewModel.swift in Sources */,
+				BBADDE7721491F9F00334A28 /* MolletBodyWeightAlert.swift in Sources */,
+				BBADDE83214A0EEA00334A28 /* MolletBaseViewController.swift in Sources */,
+				BB9FA842214F9274008E3EDD /* MolletPhoneNumberAlert.swift in Sources */,
+				BBA2B4162153C0640098D9D1 /* MolletContractModel.swift in Sources */,
+				DDE69B07217199420014DF04 /* MolletJobWeightModel.swift in Sources */,
+				BBA2B3FF21539A680098D9D1 /* YBOSSInfo.swift in Sources */,
+				DD4CDA45216CA8E800EF22BE /* MolletNameAlert.swift in Sources */,
+				BBA2B40A2153B2AA0098D9D1 /* MolletContractViewController.swift in Sources */,
+				BBA2B4132153C0190098D9D1 /* MolletLoginViewController.swift in Sources */,
+				BB9FA840214F49A5008E3EDD /* MolletAlert.swift in Sources */,
+				DD73FC06215CAFE200F63F2E /* SwiftNotice.swift in Sources */,
+				BBADDE84214A0EEA00334A28 /* MolletNavigationController.swift in Sources */,
+				BBF72A1A214B8CE60064CA56 /* MolletPersonalCenterViewController.swift in Sources */,
+				DDE69B092171F72D0014DF04 /* MolletRateModel.swift in Sources */,
+				DD7FC442214FA0FB00DC52DD /* MolletBalanceModel.swift in Sources */,
+				DD73FBD321538A4900F63F2E /* MolletRankViewModel.swift in Sources */,
+				BBA2B40C2153B4710098D9D1 /* AppDelegate.swift in Sources */,
+				DD7FC440214F9FFF00DC52DD /* MolletBalanceViewModel.swift in Sources */,
+				DD35104921525282005F429F /* MolletReportHeader.swift in Sources */,
+				DD73FC0A215CD74800F63F2E /* MolletForgetPasswordViewModel.swift in Sources */,
+				DD73FBF2215A2CE900F63F2E /* CountryTools.swift in Sources */,
+				DD73FBD02153824800F63F2E /* MolletRankViewController.swift in Sources */,
+				BBA2B4102153BFC10098D9D1 /* MolletContractViewModel.swift in Sources */,
+				DD7FC4472150A50300DC52DD /* DropDownView.swift in Sources */,
+				DD4CDA3E216AFE6900EF22BE /* MBProgressHUDSwift.swift in Sources */,
+				DD73FBCB21534BF100F63F2E /* MProgressView.swift in Sources */,
+				DD7FC42F214B991600DC52DD /* MolletContractCell.swift in Sources */,
+				DD73FBD621539F2200F63F2E /* MolletRegistNameViewController.swift in Sources */,
+				DD73FBF7215B237800F63F2E /* CountryAndCityView.swift in Sources */,
+				DD35104E21525B3E005F429F /* MolletReportCell.swift in Sources */,
+				DD3510362152013A005F429F /* MolletJobModel.swift in Sources */,
+				DD35103821523B11005F429F /* MolletJobAddViewModel.swift in Sources */,
+				BBA2B40E2153B4B60098D9D1 /* SwiftHeader.swift in Sources */,
+				DD7FC43D214F9D2A00DC52DD /* MolletBalanceCell.swift in Sources */,
+				DD6AB7212150F4C200E90688 /* MolletCalcultorViewController.swift in Sources */,
+				DD02A5602181590A00592343 /* PrivacyPolicyViewController.swift in Sources */,
+				DD73FBCD2153730100F63F2E /* MProgressBar.swift in Sources */,
+				DD35102E2151FC98005F429F /* MolletJobListView.swift in Sources */,
+				DD35103B2152432F005F429F /* DateView.swift in Sources */,
+				DD73FBDE21539F6C00F63F2E /* MolletRegistCountryViewController.swift in Sources */,
+				DD001E67214904AF004AA9C7 /* MolletLoginViewModel.swift in Sources */,
+				DD73FC14215E13A800F63F2E /* MolletTools.swift in Sources */,
+				DD3510312151FD4B005F429F /* MolletJobListCell.swift in Sources */,
+				DD001E8321491D10004AA9C7 /* MolletContractView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1774942148AC27007AB379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD17749D2148AC27007AB379 /* MolletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD17749F2148AC27007AB379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1774A82148AC27007AB379 /* MolletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD17749A2148AC27007AB379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1774832148AC26007AB379 /* Mollet */;
+			targetProxy = DD1774992148AC27007AB379 /* PBXContainerItemProxy */;
+		};
+		DD1774A52148AC27007AB379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1774832148AC26007AB379 /* Mollet */;
+			targetProxy = DD1774A42148AC27007AB379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD17748B2148AC27007AB379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD17748C2148AC27007AB379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD1774AA2148AC27007AB379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haoran Deng (RFHJ4YRMJP)";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q8E843S9MY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c181f1b6-4908-4382-b5c2-8a4a7845bf9c";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zfx/Desktop/Mollet/Mollet/Other/ObjCBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD1774AB2148AC27007AB379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Haoran Deng (Q8E843S9MY)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q8E843S9MY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8bbbd322-1377-4de6-9e4e-5b0b66847da0";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zfx/Desktop/Mollet/Mollet/Other/ObjCBridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD1774AD2148AC27007AB379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2427473FE3350582F84633D9 /* Pods-Mollet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Haoran Deng (RFHJ4YRMJP)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Haoran Deng (RFHJ4YRMJP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8E843S9MY;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Mollet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/DZNEmptyDataSet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanscan.mollet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zfx/Desktop/Mollet/Mollet/Other/ObjCBridgingHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		DD1774AE2148AC27007AB379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE1AE2A5814A27839E565FC /* Pods-Mollet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Haoran Deng (Q8E843S9MY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8E843S9MY;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Mollet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/DZNEmptyDataSet";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scanscan.mollet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zfx/Desktop/Mollet/Mollet/Other/ObjCBridgingHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		DD1774B02148AC27007AB379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MolletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx007.www.MolletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mollet.app/Mollet";
+			};
+			name = Debug;
+		};
+		DD1774B12148AC27007AB379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MolletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx007.www.MolletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mollet.app/Mollet";
+			};
+			name = Release;
+		};
+		DD1774B32148AC27007AB379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MolletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx007.www.MolletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mollet;
+			};
+			name = Debug;
+		};
+		DD1774B42148AC27007AB379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MolletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx007.www.MolletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mollet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD17747F2148AC26007AB379 /* Build configuration list for PBXProject "Mollet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1774AA2148AC27007AB379 /* Debug */,
+				DD1774AB2148AC27007AB379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1774AC2148AC27007AB379 /* Build configuration list for PBXNativeTarget "Mollet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1774AD2148AC27007AB379 /* Debug */,
+				DD1774AE2148AC27007AB379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1774AF2148AC27007AB379 /* Build configuration list for PBXNativeTarget "MolletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1774B02148AC27007AB379 /* Debug */,
+				DD1774B12148AC27007AB379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1774B22148AC27007AB379 /* Build configuration list for PBXNativeTarget "MolletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1774B32148AC27007AB379 /* Debug */,
+				DD1774B42148AC27007AB379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD17747C2148AC26007AB379 /* Project object */;
+}

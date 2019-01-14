@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Lts-S5-MFW" customClass="MolletHeightAlert" customModule="Mollet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="430"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzt-O4-hyO">
+                    <rect key="frame" x="32" y="26" width="48.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="wwx-50-p1A"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="f1N-q7-cFO">
+                    <rect key="frame" x="32" y="47" width="311" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="wNU-YU-zhM"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hx3-Jn-D06">
+                    <rect key="frame" x="32" y="99" width="311" height="1"/>
+                    <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Syh-wW-h0G"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8i-Qd-vUi">
+                    <rect key="frame" x="32" y="178" width="311" height="48"/>
+                    <state key="normal" title="Button" image="personalcenter_ok"/>
+                    <connections>
+                        <action selector="okAction:" destination="Lts-S5-MFW" eventType="touchUpInside" id="xLt-zl-XNA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPP-I3-G7y">
+                    <rect key="frame" x="331" y="26" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="EMH-qq-6Vj"/>
+                        <constraint firstAttribute="height" constant="22" id="UMj-NI-EPO"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="personalcenter_cancel"/>
+                    <connections>
+                        <action selector="cancelAction:" destination="Lts-S5-MFW" eventType="touchUpInside" id="BIU-qp-ZRr"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="GPP-I3-G7y" firstAttribute="top" secondItem="quq-ma-I43" secondAttribute="top" constant="26" id="8bS-c2-kfH"/>
+                <constraint firstItem="Hx3-Jn-D06" firstAttribute="leading" secondItem="quq-ma-I43" secondAttribute="leading" constant="32" id="As5-uP-SRo"/>
+                <constraint firstItem="uzt-O4-hyO" firstAttribute="leading" secondItem="quq-ma-I43" secondAttribute="leading" constant="32" id="Kd0-Gq-Vqu"/>
+                <constraint firstItem="Hx3-Jn-D06" firstAttribute="top" secondItem="f1N-q7-cFO" secondAttribute="bottom" constant="10" id="UPU-fO-4pY"/>
+                <constraint firstItem="quq-ma-I43" firstAttribute="trailing" secondItem="Hx3-Jn-D06" secondAttribute="trailing" constant="32" id="X2e-5z-8Wu"/>
+                <constraint firstItem="uzt-O4-hyO" firstAttribute="top" secondItem="quq-ma-I43" secondAttribute="top" constant="26" id="a7z-ym-OKc"/>
+                <constraint firstItem="quq-ma-I43" firstAttribute="trailing" secondItem="q8i-Qd-vUi" secondAttribute="trailing" constant="32" id="kg9-Fj-ybH"/>
+                <constraint firstItem="q8i-Qd-vUi" firstAttribute="leading" secondItem="quq-ma-I43" secondAttribute="leading" constant="32" id="nEW-dr-G1F"/>
+                <constraint firstItem="q8i-Qd-vUi" firstAttribute="top" secondItem="Hx3-Jn-D06" secondAttribute="bottom" constant="78" id="nZi-Nk-JjT"/>
+                <constraint firstItem="f1N-q7-cFO" firstAttribute="leading" secondItem="quq-ma-I43" secondAttribute="leading" constant="32" id="pXt-8k-and"/>
+                <constraint firstItem="quq-ma-I43" firstAttribute="trailing" secondItem="GPP-I3-G7y" secondAttribute="trailing" constant="22" id="pvD-Up-F9W"/>
+                <constraint firstItem="quq-ma-I43" firstAttribute="trailing" secondItem="f1N-q7-cFO" secondAttribute="trailing" constant="32" id="rII-hP-U9n"/>
+                <constraint firstItem="f1N-q7-cFO" firstAttribute="top" secondItem="uzt-O4-hyO" secondAttribute="bottom" id="usS-SM-TkZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="quq-ma-I43"/>
+            <connections>
+                <outlet property="molletHieghtTextField" destination="f1N-q7-cFO" id="ac4-g5-HzN"/>
+            </connections>
+            <point key="canvasLocation" x="21" y="13"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="personalcenter_cancel" width="14" height="14"/>
+        <image name="personalcenter_ok" width="311" height="48"/>
+    </resources>
+</document>

@@ -1,0 +1,73 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AliyunOSSiOS (2.10.5)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManagerSwift (6.1.1)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.6)
+  - ObjectMapper (3.3.0)
+  - ReachabilitySwift (4.1.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SnapKit (4.0.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AliyunOSSiOS
+  - DZNEmptyDataSet
+  - IQKeyboardManagerSwift (~> 6.1.1)
+  - MBProgressHUD
+  - MJRefresh
+  - ObjectMapper (~> 3.3.0)
+  - ReachabilitySwift
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SDWebImage
+  - SnapKit (~> 4.0.0)
+  - SQLite.swift
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AliyunOSSiOS
+    - DZNEmptyDataSet
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - MJRefresh
+    - ObjectMapper
+    - ReachabilitySwift
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - SQLite.swift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AliyunOSSiOS: 53df437f24309bdfbe2df21b4f6be4f75474f00a
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 3321286e73e71ab2b07e313a6a5d6f490fe4334a
+
+COCOAPODS: 1.5.3

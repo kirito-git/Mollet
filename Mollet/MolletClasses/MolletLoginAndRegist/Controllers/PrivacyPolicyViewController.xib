@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyPolicyViewController" customModule="Mollet" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kp7-NC-GdV">
+                    <rect key="frame" x="15" y="35" width="345" height="502"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">                                   Privacy Policy 
+
+Mollet App respects and protects the privacy of all users who use the service. In order to provide you with more accurate and personalized services, Mollet App will use and disclose your personal information in accordance with this Privacy Policy. However, the Mollet App will treat this information with a high degree of diligence and prudence. Except as otherwise provided in this Privacy Policy, Mollet App will not disclose or provide such information to third parties without your prior permission. Mollet App will update this Privacy Policy from time to time. By agreeing to the Mollet App Service Use Agreement, you are deemed to have agreed to the entire content of this Privacy Policy. This Privacy Policy is an integral part of the Mollet App Service Use Agreement.
+
+1. Scope of application
+
+a) Personal registration information that you provide based on the Mollet App when you register your Mollet App account;
+
+b) When you use the Mollet App web service or access the Mollet App platform web page, the Mollet App automatically receives and records information on your browser and computer, including but not limited to your IP address, browser type, usage Data such as language, date and time of access, hardware and software feature information, and web page records you need;
+
+c) User personal data obtained by Mollet App from a business partner through legal means.
+
+You understand and agree that the following information does not apply to this Privacy Policy:
+
+a) keyword information that you enter when using the search service provided by the Mollet App platform;
+
+b) Relevant information about the information you have collected on the Mollet App collected by the Mollet App, including but not limited to participation activities, transaction information and evaluation details;
+
+c) Violation of the law or violation of the Mollet App rules and actions taken by the Mollet App.
+
+2. Information use
+
+a) Mollet App will not provide, sell, rent, share or trade your personal information to any unrelated third party unless you have obtained your permission in advance, or the third party and Mollet App (including Mollet App affiliates) are either alone or jointly You provide the service, and after the service is over, it will be blocked from accessing all of this material that it has previously been able to access.
+
+b) Mollet App also does not allow any third party to collect, edit, sell or distribute your personal information by any means. Any Mollet App platform user who engages in the above activities, once discovered, Mollet App has the right to immediately terminate the service agreement with the user.
+
+c) For the purpose of serving the User, Mollet App may use your personal information to provide you with information of interest to you, including but not limited to, to send you product and service information, or to share information with Mollet App partners so that they may You send information about its products and services (the latter requires your prior consent).
+
+3. Information disclosure
+
+In the following circumstances, Mollet App will disclose your personal information in whole or in part according to your personal wishes or the law:
+
+a) disclose to third parties with your prior consent;
+
+b) in order to provide the products and services you request, you must share your personal information with third parties;
+
+c) disclosure to third parties or administrative or judicial authorities in accordance with the relevant provisions of the law, or at the request of the administrative or judicial authorities;
+
+d) If you are in violation of relevant Chinese laws, regulations or Mollet App service agreements or related rules, you need to disclose it to third parties;
+
+e) If you are a qualified IP Complainant and have filed a complaint, it should be disclosed to the Respondent at the request of the Complainant so that both parties can handle possible rights disputes;
+
+f) In a transaction created on the Mollet App platform, if any party to the transaction performs or partially fulfills its trading obligations and requests for information disclosure, Mollet App has the right to decide to provide the user with the necessary information such as the contact information of the counterparty. To facilitate the completion of the transaction or the resolution of the dispute.
+
+g) Other Mollet App disclosures deemed appropriate by law, regulation or website policy.
+
+4. Information storage and exchange
+
+The information and materials collected by Mollet App about you will be stored on the Mollet App and/or its affiliates' servers, which may be sent to your country, region or where the Mollet App collects information and data. It is accessed, stored and displayed outside the country.
+
+5. Use of cookies
+
+a) If you have not refused to accept cookies, the Mollet App will set or retrieve cookies on your computer.
+
+So that you can log in or use the Mollet App platform services or features that depend on cookies. Mollet App uses cookies to provide you with more thoughtful and personalized services, including promotional services. b) You have the right to choose to accept or decline to accept cookies. You can refuse to accept cookies by modifying your browser settings. However, if you choose to decline to accept cookies, you may not be able to log in or use the Mollet App web service or feature that relies on cookies.
+
+c) This policy will apply to information obtained through the cookies set by the Mollet App.
+
+6. Information security
+
+a) The Mollet App account has security protection. Please keep your username and password information safe. Mollet App will ensure that your information is not lost, misused and altered by security measures such as encrypting user passwords. Despite the aforementioned security measures, please also note that there are no “perfect security measures” on the information network.
+
+b) When using the Mollet App web service for online transactions, you will inevitably disclose your personal information, such as contact information or postal address, to the counterparty or potential counterparty. Please protect your personal information and provide it to others only when necessary. If you find that your personal information has been compromised, especially if the Mollet App username and password are compromised, please contact the Mollet App customer service immediately so that the Mollet App can take action.</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Em3-LR-hCk">
+                    <rect key="frame" x="30" y="567" width="315" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="jVb-Wh-ZRV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="OK" backgroundImage="button-black">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="okSelect:" destination="-1" eventType="touchUpInside" id="Itq-XS-MZC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Em3-LR-hCk" firstAttribute="top" secondItem="Kp7-NC-GdV" secondAttribute="bottom" constant="30" id="2hG-mv-QYR"/>
+                <constraint firstItem="Kp7-NC-GdV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Nav-MJ-dcl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kp7-NC-GdV" secondAttribute="trailing" constant="15" id="Vnv-fP-Yg0"/>
+                <constraint firstItem="Em3-LR-hCk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="azi-Rt-2dT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kp7-NC-GdV" secondAttribute="bottom" constant="130" id="ecC-WF-Qvm"/>
+                <constraint firstItem="Kp7-NC-GdV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="ogD-pF-8vx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Em3-LR-hCk" secondAttribute="trailing" constant="30" id="vp3-Ym-uWe"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button-black" width="311" height="48"/>
+    </resources>
+</document>
